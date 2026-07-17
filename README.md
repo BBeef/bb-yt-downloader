@@ -72,3 +72,6 @@ pyinstaller --noconfirm --onefile --windowed --icon=icon/bb-yt-downloader.ico --
 ```
 
 打包後會在 `./dist`  
+
+# 版權
+MIT License  
