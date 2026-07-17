@@ -597,12 +597,12 @@ class App(QObject):
 
         self.ui.label_output.setText("選擇或拖曳資料夾到這裡")  # type: ignore
 
-        self.ui.comboBox_format.setCurrentText("FLAC 音樂")  # type: ignore
+        self.ui.comboBox_format.setCurrentText("MP3 音樂")  # type: ignore
         self.ui.checkBox_subtitle.setChecked(False)  # type: ignore
         self.ui.spinBox_max_workers.setValue(5)  # type: ignore
         self.ui.checkBox_debug.setChecked(False)  # type: ignore
 
-        self.ui.text_log.setText("懶人包: \"選擇輸出資料夾\" -> \"貼上網址\" -> \"下載 !\"\n")  # type: ignore
+        self.ui.text_log.setText("懶人包: \"選擇輸出資料夾\" > \"貼上網址\" > \"下載 !\"\n")  # type: ignore
 
         self.ui.label_version.setText("3.1")  # type: ignore
 
