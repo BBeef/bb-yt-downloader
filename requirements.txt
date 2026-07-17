@@ -1,0 +1,5 @@
+yt-dlp[default,curl-cffi]
+yt-dlp-ejs
+mutagen
+pyinstaller
+PySide6

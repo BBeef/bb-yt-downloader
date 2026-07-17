@@ -1,0 +1,11 @@
+build/
+deno/
+dist/
+ffmpeg/
+test/
+venv/
+.venv/
+
+*.spec
+
+frozen.txt
