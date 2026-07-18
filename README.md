@@ -86,6 +86,5 @@ pyinstaller --noconfirm --onefile --windowed --icon=icon/bb-yt-downloader.ico --
 MIT License  
 
 ## 免責聲明
-
 本工具僅供下載您擁有權利或已取得授權下載的內容.  
 使用者須自行遵守所在地法律及各平台的使用條款.  

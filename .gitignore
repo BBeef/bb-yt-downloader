@@ -5,6 +5,7 @@ ffmpeg/
 test/
 venv/
 .venv/
+__pycache__/
 
 *.spec
 
