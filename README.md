@@ -1,4 +1,5 @@
 # BB YT 下載器
+
 - 批次下載
 - 影片
 - 音樂
@@ -6,9 +7,11 @@
 - yt-dlp + UI
 
 ### 截圖
+
 ![截圖](./assets/screenshot.png)
 
 # 下載
+
 ### 到 Releases 下載最新版
 
 Windows:  
@@ -18,16 +21,20 @@ Linux:
 BB.YT.Downloader  
 
 # 使用
+
 1. 選擇輸出資料夾
 2. 貼上網址
 3. 下載 !
 
 # 想自己編譯?
+
 ## 需求
+
 - [FFmpeg](https://ffmpeg.org/)
 - [Deno](https://github.com/denoland/deno)
 
 ### 把 `deno`, `ffmpeg` 放在適當位置
+
 ```
 bb-yt-downloader/
  ├─ deno/
@@ -51,6 +58,7 @@ bb-yt-downloader/
 ```
 
 ## Linux
+
 ```bash
 chmod +x deno/linux/deno
 chmod +x ffmpeg/linux/ffmpeg
@@ -70,6 +78,7 @@ pyinstaller --noconfirm --onefile --windowed --icon=icon/bb-yt-downloader.png --
 打包後會在 `./dist`  
 
 ## Windows
+
 ```bash
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -82,9 +91,20 @@ pyinstaller --noconfirm --onefile --windowed --icon=icon/bb-yt-downloader.ico --
 
 打包後會在 `./dist`  
 
+# 致謝
+
+部分程式碼最初參考或基於以下項目:  
+
+- [Download-Simply-Videos-From-YouTube (MIT license)](https://github.com/pH-7/Download-Simply-Videos-From-YouTube)
+
+該部分程式碼此後經過了大量修改, 並加入完整 UI.  
+第三方授權文件請見 `THIRD_PARTY_LICENSES/` .
+
 # 版權
-MIT License  
+
+MIT License
 
 ## 免責聲明
+
 本工具僅供下載您擁有權利或已取得授權下載的內容.  
 使用者須自行遵守所在地法律及各平台的使用條款.  
